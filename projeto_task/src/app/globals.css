@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-VariableFont_wght.ttf')
+}
+
+body {
+  font-family: 'Parkinsans', 'Times New Roman';
+}
+
+#dataDark {
+  color-scheme: dark;
+}
+
+#hiddenScroll::-webkit-scrollbar {
+  display: none;
+}
