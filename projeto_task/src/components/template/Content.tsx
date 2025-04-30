@@ -1,9 +1,14 @@
 'use client'
 
-export default function Content(){
+import Footer from "./Footer"
+
+export default function Content() {
     return (
-        <div className="bg-slate-100 flex grow">
-            Content
-        </div>
+        <>
+            <div className="bg-black flex grow">
+                Content
+            </div>
+            <Footer />
+        </>
     )
 }

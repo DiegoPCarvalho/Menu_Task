@@ -2,7 +2,7 @@
 
 export default function Header(){
     return (
-        <div>
+        <div className="bg-black rounded-tl-xl">
             Header
         </div>
     )
